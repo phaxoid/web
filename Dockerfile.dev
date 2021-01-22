@@ -6,4 +6,4 @@ COPY package.json WORKDIR
 
 RUN yarn install
 
-CMD [ "yarn", "run", "start" ]
+CMD [ "yarn", "start" ]
