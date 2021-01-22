@@ -1,9 +1,0 @@
-FROM node:14.15-alpine
-
-WORKDIR /web/project/dev
-
-COPY package.json WORKDIR
-
-RUN yarn install
-
-CMD [ "yarn", "start" ]
