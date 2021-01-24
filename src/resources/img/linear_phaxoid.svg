@@ -1,0 +1,23 @@
+<svg id="Component_1_1" data-name="Component 1 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="421" height="85" viewBox="0 0 421 85">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="84.937" height="84.575" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(230.871)" clip-path="url(#clip-path)">
+    <g id="Group_1" data-name="Group 1" transform="translate(0 0)">
+      <path id="Rectangle_5" data-name="Rectangle 5" d="M20.548-.044,59.932-.128l-.084,39.384A20.655,20.655,0,0,1,39.256,59.848l-39.384.084.084-39.384A20.655,20.655,0,0,1,20.548-.044Z" transform="translate(42.469 0) rotate(45)" fill="#fff"/>
+      <path id="Rectangle_6" data-name="Rectangle 6" d="M20.548-.044,46.233-.1l-.055,25.685A20.655,20.655,0,0,1,25.586,46.179L-.1,46.233l.055-25.685A20.655,20.655,0,0,1,20.548-.044Z" transform="translate(37.616 9.666) rotate(45)" fill="#4c9a9c" opacity="0.999"/>
+      <path id="Rectangle_7" data-name="Rectangle 7" d="M0,0,23.68-.051h0a5.95,5.95,0,0,1-5.932,5.932L-.013,5.92Z" transform="translate(50.572 25.487) rotate(45)" fill="#fff"/>
+      <path id="Rectangle_7-2" data-name="Rectangle 7" d="M0,0,23.68-.051h0a5.95,5.95,0,0,1-5.932,5.932L-.013,5.92Z" transform="translate(50.572 25.487) rotate(45)" fill="#fff"/>
+      <path id="Rectangle_9" data-name="Rectangle 9" d="M5.92-.013l1.479,0h0A5.95,5.95,0,0,1,1.467,5.916l-1.479,0h0A5.95,5.95,0,0,1,5.92-.013Z" transform="translate(44.28 19.221) rotate(45)" fill="#fff"/>
+      <path id="Rectangle_8" data-name="Rectangle 8" d="M0,0,8.88-.019a5.889,5.889,0,0,1,5.907,5.907h0l-8.88.019A5.889,5.889,0,0,1,0,0Z" transform="translate(51.187 35.929) rotate(45)" fill="#fff"/>
+    </g>
+  </g>
+  <text id="P" transform="translate(0 76)" fill="#fff" font-size="38" font-family="Skia"><tspan x="0" y="0">P</tspan></text>
+  <text id="H" transform="translate(54 76)" fill="#fff" font-size="39" font-family="Skia"><tspan x="0" y="0">H</tspan></text>
+  <text id="A" transform="translate(116 76)" fill="#fff" font-size="38" font-family="Skia"><tspan x="0" y="0">A</tspan></text>
+  <text id="X" transform="translate(175 76)" fill="#fff" font-size="38" font-family="Skia"><tspan x="0" y="0">X</tspan></text>
+  <text id="I" transform="translate(347 76)" fill="#fff" font-size="39" font-family="Skia"><tspan x="0" y="0">I</tspan></text>
+  <text id="D" transform="translate(392 76)" fill="#fff" font-size="39" font-family="Skia"><tspan x="0" y="0">D</tspan></text>
+</svg>

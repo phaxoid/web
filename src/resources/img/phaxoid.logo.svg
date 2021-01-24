@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="238.548" height="238.548" viewBox="0 0 238.548 238.548">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="238.548" height="238.548" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Repeat_Grid_1" data-name="Repeat Grid 1" clip-path="url(#clip-path)">
+    <g id="Group_1" data-name="Group 1" transform="translate(0.001)">
+      <path id="Rectangle_5" data-name="Rectangle 5" d="M57.833,0H168.681V110.847a57.833,57.833,0,0,1-57.833,57.833H0V57.833A57.833,57.833,0,0,1,57.833,0Z" transform="translate(119.276 0) rotate(45)" fill="#fff"/>
+      <path id="Rectangle_6" data-name="Rectangle 6" d="M57.833,0h72.292V72.292a57.833,57.833,0,0,1-57.833,57.833H0V57.833A57.833,57.833,0,0,1,57.833,0Z" transform="translate(105.646 27.264) rotate(45)" fill="#4c9a9c" opacity="0.999"/>
+      <path id="Rectangle_7" data-name="Rectangle 7" d="M0,0H66.648A16.661,16.661,0,0,1,49.987,16.661H0Z" transform="translate(142.033 71.887) rotate(45)" fill="#fff"/>
+      <path id="Rectangle_9" data-name="Rectangle 9" d="M16.661,0h4.164A16.661,16.661,0,0,1,4.164,16.661H0A16.661,16.661,0,0,1,16.661,0Z" transform="translate(124.36 54.214) rotate(45)" fill="#fff"/>
+      <path id="Rectangle_8" data-name="Rectangle 8" d="M0,0H24.994A16.661,16.661,0,0,1,41.654,16.661H16.661A16.661,16.661,0,0,1,0,0Z" transform="translate(143.758 101.338) rotate(45)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

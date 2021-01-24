@@ -2,18 +2,18 @@ import React from "react"
 
 import {
     Switch,
-    Route,
     BrowserRouter as Router
 } from "react-router-dom"
-import App from "../App"
+import Projects from "../pages/admin/Project"
+import RouteToAdmin from "./RouteToAdmin"
 
 
 export default function RouterIndex () {
     return <Router>
         <Switch>
-            <Route path="/">
-                <App/>
-            </Route>
+            <RouteToAdmin path="/">
+                <Projects />
+            </RouteToAdmin>
         </Switch>
     </Router>
 }
