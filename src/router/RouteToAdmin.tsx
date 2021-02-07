@@ -6,6 +6,7 @@ import { createMuiTheme, ThemeProvider, createStyles, Theme, makeStyles } from '
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Drawer from '@material-ui/core/Drawer';
 import Toolbar from '@material-ui/core/Toolbar';
+import clsx from 'clsx';
 
 
 const theme = createMuiTheme({
@@ -48,6 +49,18 @@ const theme = createMuiTheme({
     content: {
       flexGrow: 1,
       padding: theme.spacing(3),
+      transition: theme.transitions.create('margin', {
+        easing: theme.transitions.easing.sharp,
+        duration: theme.transitions.duration.leavingScreen,
+      }),
+      marginLeft: 0,
+    },
+    contentShift: {
+      transition: theme.transitions.create('margin', {
+        easing: theme.transitions.easing.easeOut,
+        duration: theme.transitions.duration.enteringScreen,
+      }),
+      marginLeft: drawerWidth,
     },
   }),
 );
@@ -58,22 +71,28 @@ interface routeInterface {
 }
 export default function RouteToAdmin ({path, children}: routeInterface) {
     const classes = useStyles();
+    const [open, setOpen] = React.useState(false)
     return (
         <Route path={path}>
             <React.Fragment>
                 <ThemeProvider theme={theme}>
                     <CssBaseline/>
-                    <NavigationBar appBar={classes.appBar} />
+                    <NavigationBar drawMenuAction={()=> { setOpen(!open) }} appBar={classes.appBar} />
                     <Drawer
                         className={classes.drawer}
-                        variant="permanent"
+                        variant="persistent"
                         classes={{
                           paper: classes.drawerPaper,
                         }}
+                        open={open}
                         >
                             <Toolbar />
                         </Drawer>
-                    {children}
+                        <div style={{padding: 10}} className={clsx(classes.content, {
+                          [classes.contentShift]: open,
+                        })}>
+                          {children}
+                        </div>
                 </ThemeProvider>
             </React.Fragment>
         </Route>
